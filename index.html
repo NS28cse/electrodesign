@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>部活動紹介</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1 class="hero-title">部活動紹介</h1>
+        <div class="hero-scroll-indicator"></div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#about">活動概要</a></li>
+            <li><a href="#schedule">活動予定</a></li>
+            <li><a href="#gallery">活動写真</a></li>
+            <li><a href="#members">メンバー</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>活動概要</h2>
+            <div class="content-wrapper">
+                <p>ここに部活動の説明文を入れます。</p>
+            </div>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>活動予定</h2>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <h3>平日</h3>
+                    <p>16:00 - 18:00</p>
+                </div>
+                <div class="schedule-item">
+                    <h3>土曜日</h3>
+                    <p>9:00 - 12:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>活動写真</h2>
+            <div class="gallery-grid">
+                <!-- 画像は後で追加 -->
+            </div>
+        </section>
+
+        <section id="members" class="section">
+            <h2>メンバー</h2>
+            <div class="members-grid">
+                <!-- メンバー情報は後で追加 -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>お問い合わせ</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="お名前" required>
+                <input type="email" placeholder="メールアドレス" required>
+                <textarea placeholder="メッセージ" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 部活動名 All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
