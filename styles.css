@@ -219,4 +219,24 @@ body {
     .hero-button {
         margin: 0.5rem 0;
     }
+}
+
+.about-policy {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-policy h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-policy p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
 } 
